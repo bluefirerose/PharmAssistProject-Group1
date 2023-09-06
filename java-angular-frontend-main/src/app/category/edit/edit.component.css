@@ -1,0 +1,88 @@
+/* CSS for Edit Page */
+body {
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  background-image: url("src\assets\green.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  backdrop-filter: blur(13px) saturate(180%);
+  -webkit-backdrop-filter: blur(13px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 40px;
+  width: 60%;
+  font-size: larger;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #7ffac1;
+    background-color: #f2f2f2;
+  }
+
+  .form-control:focus {
+    outline: none;
+  }
+
+  .alert-danger {
+    color: #dc3545;
+  }
+
+  .btn-primary {
+    background-color: #54c6e9;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background-color: #7ffac1;
+  }
+
+  /* Remove border radius from the submit button */
+  .btn-primary[type="submit"] {
+    border-radius: 0;
+  }
+
+  /* Apply the color theme for the form inputs */
+  .form-control,
+  .btn-primary {
+    color: #333;
+  }
+
+  /* Apply styles to the form labels */
+  label {
+    font-weight: bold;
+  }
+
+  /* Adjust the margins and paddings of the form */
+  form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #54c6e9;
+    background-color: #f2f2f2;
+  }
+
+  /* Apply styles to the validation messages */
+  .alert-danger {
+    margin-top: 5px;
+  }

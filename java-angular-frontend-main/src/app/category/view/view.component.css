@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  color: rgb(75, 74, 72);
+   background-image: url("src\assets\green.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  backdrop-filter: blur(13px) saturate(180%);
+  -webkit-backdrop-filter: blur(13px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 40px;
+  width: 60%;
+  font-size: larger;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between the header and the table */
+  }
+
+  .content {
+    margin-top: 20px; /* Add some space between the header and the content */
+    border: 2px solid #74e6f2;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+
+  .content div {
+    margin-bottom: 10px;
+  }
+
+  /* Apply the color theme */
+  .btn-primary {
+    background-color: #74e6f2;
+    color: black;
+  }
+  .btn-primary:hover {
+    background-color: #7ffac1;
+    color: black;
+  }
+
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #7ffac1;
+  }
+
+  .table th {
+    background-color: #74e6f2;
+  }
+
+  .table tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .text-dark {
+    color: #333;
+  }

@@ -1,0 +1,19 @@
+#logo {
+  width: 70px;
+ }
+
+
+.custom-card {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-card img {
+    flex-grow: 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+
